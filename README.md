@@ -162,3 +162,37 @@ text = "Je travaille sur l'apprentissage automatique."  # Replace with your inpu
 speech = model.generate(**inputs)
 audio = vocoder(speech)
 ```
+
+# Acknowledgements
+Base SpeechT5 Model: Developed by Microsoft
+
+Dataset: ymoslem/MediaSpeech
+
+The open-source speech processing community for ongoing support and resources.
+
+Internship Program: PARIMAL intern program at IIT Roorkee
+
+## Citation
+
+If you use this model, please cite:
+
+
+```
+@misc{DeepDiveDev/TTS_FineTune_French,
+  author = {Jyotirmoyee Mandal},
+  title = {Fine-tuning TTS for French},
+  year = {2024},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://huggingface.co/DeepDiveDev/TTS_FineTune_French}},
+  Contact Information: {Jyotirmoyeemandal63@gmail.com}.
+}
+```
+
+## References
+
+This code draws lessons from:
+- [Hugging Face Audio Course - Fine-Tuning](https://huggingface.co/learn/audio-course/en/chapter6/fine-tuning)
+
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
